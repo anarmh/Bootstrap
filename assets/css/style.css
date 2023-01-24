@@ -1,8 +1,38 @@
-.container{
-    background-color: brown;
+
+#main{
+    display: flex;
+    height: 100vh;
+    width:100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+   
+}
+#main .container{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: baseline;
+    margin: 0;
+    padding: 0;
 }
 .container .img{
-    background-color: aqua;
+    width: 500px;
+    height: 700px;
+   
+}
+.container img{
+height: 100%;
+width: 100%;
+}
+#main .container .form{
+    width: 800px;
+    height: 700px;
     display: flex;
-    justify-content: end;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+#main .container .form h1{
+}
+#main .container .form input{
 }
